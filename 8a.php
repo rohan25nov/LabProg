@@ -1,6 +1,9 @@
 <html>
 <head>
     <title>Result Page</title>
+    <style type="text/css">
+        h1,h2 {text-align: center}
+    </style>
 </head>
 <body>
     <?php
@@ -21,7 +24,7 @@
             $res=$op1/$op2;
             break;
     }
-    echo "<h1>Simple Calculator 1</h1>";
+    echo "<h1>Simple Calculator</h1>";
     echo "<h2>".$op1.$operator.$op2."=".$res."</h2>";
     ?>
 </body>
